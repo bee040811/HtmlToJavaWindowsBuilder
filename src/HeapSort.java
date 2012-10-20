@@ -34,8 +34,8 @@ public class HeapSort implements SortAlgorithm{
 	}
 	
 	private <T> void maxHeapify(T[] array, int len, Comparator<T> comparator, int parent){
-		int leftChild = parent;
-		int rightChild = parent;
+		int leftChild = parent * 2;
+		int rightChild = parent * 2 + 1;
 		int max = parent;
 		
 		/* Find maximum among parent, left child and right child */
