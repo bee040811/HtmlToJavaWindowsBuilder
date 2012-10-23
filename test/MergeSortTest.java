@@ -9,8 +9,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class InsertionSortTest {
-	private InsertionSort insertionsort;
+public class MergeSortTest {
+	private SortAlgorithm mergesort;
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -22,20 +22,20 @@ public class InsertionSortTest {
 
 	@Before
 	public void setUp() throws Exception {
-		insertionsort=new InsertionSort();
+		mergesort=new MergeSort();
 		
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		insertionsort=null;
+		mergesort=null;
 	}
 
 	@Test
 	public void test() {
 		Integer[] expect={1,2,3,4};
 		Integer[] testcase = {4,2,1,3};
-		insertionsort.sort(testcase,new Comparator<Integer>(){
+		mergesort.sort(testcase,new Comparator<Integer>(){
 
 			@Override
 			public int compare(Integer arg0, Integer arg1) {
