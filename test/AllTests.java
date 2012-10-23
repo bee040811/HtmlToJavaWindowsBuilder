@@ -5,7 +5,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({ BubbleSortTest.class, HeapSortTest.class,
-		InsertionSortTest.class })
+		InsertionSortTest.class,MergeSortTest.class })
 public class AllTests {
 
 }
