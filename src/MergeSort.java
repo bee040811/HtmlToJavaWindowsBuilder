@@ -1,7 +1,7 @@
 import java.util.Comparator;
 
 /**
- *  Bubble sort algorithm implementation.
+ *  Merge sort algorithm implementation.
  *  This implementation has side effect on array.
  * 
  * @author	bee

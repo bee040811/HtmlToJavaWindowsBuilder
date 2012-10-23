@@ -1,5 +1,10 @@
 import java.util.Comparator;
-
+/**
+ *  Insertion sort algorithm implementation.
+ *  This implementation has side effect on array.
+ * 
+ * @author	Jason Kuo
+ */
 public class InsertionSort implements SortAlgorithm{
 	
 	/**

@@ -7,7 +7,11 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
+/**
+ * UnitTest For Insertion Sort  
+ * 
+ * @author	CFWei
+ */
 
 public class InsertionSortTest {
 	private InsertionSort insertionsort;
