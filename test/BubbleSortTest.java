@@ -10,8 +10,7 @@ import org.junit.Test;
 
 /**
  * UnitTest For Bubble Sort  
- * 
- * @author	CFWei
+ * @author CFWei
  */
 
 public class BubbleSortTest {

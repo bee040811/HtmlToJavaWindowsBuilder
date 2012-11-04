@@ -3,8 +3,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 /**
- *   Test Suite
- * @author	CFWei
+ * Test Suite
+ * @author CFWei
  */
 
 @RunWith(Suite.class)
